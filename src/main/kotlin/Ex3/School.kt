@@ -1,6 +1,6 @@
 package Ex3
 
 fun main() {
-val programa =ProgramaDeNotas()
+val programa = ProgramaDeNotas()
 programa.solicitarNotas()
 }

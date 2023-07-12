@@ -1,5 +1,6 @@
 package Ex2
 
+import Ex3.ProgramaDeNotas
 
 
 fun main() {

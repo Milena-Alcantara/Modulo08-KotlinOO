@@ -10,8 +10,9 @@ class ProgramaDeNotas {
    internal fun solicitarNotas(){
        print("Informe o nome do Aluno: ")
        nomeAluno = readln()
-       if (nomeAluno.isNullOrBlank()){
-           nomeAluno = " [nome não informado] "
+       while (nomeAluno.isNullOrBlank()){
+           println("Por favor, identifique o aluno.")
+           nomeAluno = readln()
        }
        var nota: Double?
        for (i in 1..4){
@@ -34,7 +35,7 @@ class ProgramaDeNotas {
 
     private fun menu(){
         println("Deseja realizar um novo cálculo? \n 1- Sim \t 2 - Não")
-        val decisao = readln().toInt()
+        val decisao = readln().toIntOrNull() ?:0
 
         when(decisao){
             1-> {
