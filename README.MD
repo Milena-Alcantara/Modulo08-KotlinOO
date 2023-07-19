@@ -14,6 +14,7 @@
   - ii. Imprimir uma mensagem informando que a operação
   não pode ser realizada;
   - iii. Retorna zero.
+
 2. Faça um programa de controle de lista de compras de acordo com
    as seguintes especificações:
 + a. O programa deve ter um menu que peça para a pessoa usuária
@@ -86,6 +87,8 @@ Exemplo de saída esperada:
     
     A quantidade de alimentos do tipo verdura a ser comprada
     é: 3
+
+
 3. Elaborar um programa de conversão de moeda de acordo com as
    seguintes especificações (sempre usando OOP):
 + a. O programa deve ter apresentar para a pessoa usuária “Boas
@@ -126,5 +129,7 @@ Exemplo de saída esperada:
     INSERIDO] em reais é R$[VALOR CONVERTIDO]”.
 + h. Por fim, o programa deve perguntar se a pessoa deseja fazer
   outra conversão.
-  - i. Se sim, o programa reinicia.
-  - ii. Se não, o programa encerra.
+
+ i. Se sim, o programa reinicia.
+
+ ii. Se não, o programa encerra.
