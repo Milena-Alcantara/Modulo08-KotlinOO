@@ -52,7 +52,7 @@ class CompraTest {
     // Etapa 3
 
     @Test
-    fun deveRetornarNotificarOCliente(){
+    fun deveNotificarOCliente(){
         carrinho.add(Laranja("Laranja",0.25))
         assertTrue(compra.notificarCliente(carrinho))
     }
@@ -62,6 +62,7 @@ class CompraTest {
         assertFalse { compra.notificarCliente(carrinho) }
     }
 
+    // Etapa 4
     @Test
     fun deveConseguirComprarDoEstoque(){
         assertTrue(compra.comprarPeloEstoque(1,2,carrinho))

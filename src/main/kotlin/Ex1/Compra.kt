@@ -46,13 +46,13 @@ class Compra {
         if (carrinho.isNotEmpty()){
             println("Status: Em Preparo.")
             Thread.sleep(3000)
-            println("Status: Saiu para entrega  \nTempo estimado: 30 minutos")
+            println("Status: Saiu para entrega  \nTempo estimado: 30 min")
             Thread.sleep(5000)
             println("Status: Seu pedido foi entregue! Avalie-nos na plataforma dos Correios ")
             Thread.sleep(3000)
             return true
         }else{
-            println("Poxa não há produtos em seu carrinho, compre algo e volte aqui para tentarmos novamente ;)")
+            println("Não Há produtos no carrinho para serem entregues")
             return false
         }
     }
